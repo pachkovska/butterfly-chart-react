@@ -15,8 +15,8 @@ class ButterflyChart extends Component {
                 <div className="ChartAreaContainer-leftLabel">{this.props.option_select_1}</div>
                 <div className="ChartAreaContainer-rightLabel">{this.props.option_select_2}</div>
                 <Barchart
-                  data={this.props.data}
-                  occupation={this.props.option_select_1}
+                  data={this.props.data_option_1}
+                  option_title={this.props.option_select_1}
                   graph="Graph1"
                   graphBar="Graph1-bar"
                   highest_value={this.props.highest_value} 
@@ -33,7 +33,7 @@ class ButterflyChart extends Component {
                   }
                 </div>
                 <Barchart
-                  data={this.props.data}
+                  data={this.props.data_option_2}
                   option_title={this.props.option_select_2}
                   graph="Graph2"
                   graphBar="Graph2-bar"

@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 
-import ButterflyChart from '../../src/'
+import {ButterflyChart} from '../../src/'
 
 class Demo extends Component {
 

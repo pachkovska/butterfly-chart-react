@@ -24,8 +24,8 @@ class App extends Component {
 
     state = { 
         title: 'Chart Title',
-        option_select_1: '',
-        option_select_2: '',
+        option_select_1: 'Dataset Title 1',
+        option_select_2: 'Dataset Title 2',
         highest_value: '',
         data_option_1: [{time_period: '2010', value: '345'}, {time_period: '2011', value: '650'}],
         data_option_2: [{time_period: '2010', value: '345'}, {time_period: '2011', value: '650'}],
@@ -51,6 +51,7 @@ class App extends Component {
 }
 ```  
 
+  
 Please use state as shown above. When using data returned by an API that can be structured very differently, the easiest way would be to loop/map through that data and put it in the similarly structured state.
 
 Additional usage notes:

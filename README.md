@@ -58,3 +58,6 @@ Additional usage notes:
  - No need to update highest value variable in the state, it gets calculated automatically. Bar size will be calculated automatically as fractions of the highest value for 2 datasets
  - Only state needs to be modified in order for chart to be used.
 
+
+## Demo   
+![Demo](https://media.giphy.com/media/kDfxLXRQuG28XHy11o/giphy.gif)

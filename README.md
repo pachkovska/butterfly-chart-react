@@ -11,12 +11,12 @@ Re-usable Butterfly React Chart Component allows to visually compare bar graph t
 
 ## Installation  
 
-`npm install --save-dev butterfly-chart-react` # using npm 
+`npm install --save-dev butterfly-chart-react` # using npm   
 `yarn add butterfly-chart-react`               # using yarn
 
 ## Example use  
 
-```
+```javascript
 import React, {Component} from 'react';
 import {ButterflyChart} from 'butterfly-chart-react';  
 
@@ -32,7 +32,6 @@ class App extends Component {
         barColor_1: '#aab6ca',
         barColor_2: '#c7f0db',
     }
-```
   render() {
     return (
       <div className="App">

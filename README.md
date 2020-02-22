@@ -50,8 +50,13 @@ class App extends Component {
   }
 }
 ```  
+<<<<<<< HEAD
 #  
   
+=======
+
+#   
+>>>>>>> a157fe93d4b1d0d149bad93784fd0ece320f4631
 Please use state as shown above. When using data returned by an API that can be structured very differently, the easiest way would be to loop/map through that data and put it in the similarly structured state.
 
 Additional usage notes:

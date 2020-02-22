@@ -1,7 +1,7 @@
 {
   "name": "butterfly-chart-react",
   "version": "1.0.0",
-  "description": "butterfly-chart-react React component",
+  "description": "Butterfly Chart Component for React",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -28,11 +28,14 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Yulia Tuzov",
+  "homepage": "./",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/pachkovska/butterfly-chart-react",
   "keywords": [
-    "react-component"
+    "react-component", 
+    "react-chart",
+    "chart-component",
+    "chart-widget"
   ]
 }

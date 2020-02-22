@@ -10,8 +10,8 @@ class Demo extends Component {
     option_select_1: 'Dataset Title 1',
     option_select_2: 'Dataset Title 2',
     highest_value: '',
-    data_option_1: [{time_period: '2010', value: '345'}, {time_period: '2011', value: '1245'}],
-    data_option_2: [{time_period: '2010', value: '455'}, {time_period: '2011', value: '650'}],
+    data_option_1: [{time_period: '2010', value: '345'}, , {time_period: '2011', value: '1245'}, {time_period: '2012', value: '1180'}, {time_period: '2013', value: '1290'}],
+    data_option_2: [{time_period: '2010', value: '455'}, {time_period: '2011', value: '650'}, {time_period: '2012', value: '1380'}, {time_period: '2013', value: '1245'}],
     barColor_1: '#aab6ca',
     barColor_2: '#c7f0db',
   }

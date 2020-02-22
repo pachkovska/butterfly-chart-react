@@ -51,7 +51,7 @@ class App extends Component {
 }
 ```  
 
-  
+#   
 Please use state as shown above. When using data returned by an API that can be structured very differently, the easiest way would be to loop/map through that data and put it in the similarly structured state.
 
 Additional usage notes:

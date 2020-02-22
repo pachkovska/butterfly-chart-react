@@ -7,11 +7,21 @@ class Demo extends Component {
 
   state = {
     title: 'Chart Title',
-    option_select_1: '',
-    option_select_2: '',
+    option_select_1: 'Dataset Title 1',
+    option_select_2: 'Dataset Title 2',
     highest_value: '',
-    data_option_1: [{time_period: '2010', value: '345'}, {time_period: '2011', value: '650'}],
-    data_option_2: [{time_period: '2010', value: '345'}, {time_period: '2011', value: '650'}],
+    data_option_1: [{time_period: '2010', value: '345'}, {time_period: '2011', value: '1245'}],
+    data_option_2: [{time_period: '2010', value: '455'}, {time_period: '2011', value: '650'}],
+    barColor_1: '#aab6ca',
+    barColor_2: '#c7f0db',
+  }
+
+  componentDidMount () {
+    const highest1 = Math.max(...this.state.data_option_1.map(element => Number(element.value)).filter(element => !Number.isNaN(element)));
+    const highest2 = Math.max(...this.state.data_option_2.map(element => Number(element.value)).filter(element => !Number.isNaN(element)));
+    this.setState({
+      highest_value: Math.max(highest1, highest2)
+    });
   }
 
   render() {
@@ -24,6 +34,8 @@ class Demo extends Component {
         data_option_1={this.state.data_option_1}
         data_option_2={this.state.data_option_2}
         highest_value={this.state.highest_value}
+        barColor_1={this.state.barColor_1}
+        barColor_2={this.state.barColor_2} 
       />
     </div>
   }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import './Barchart.css';
+import './BarChart.css';
 
-class Barchart extends Component {
+class BarChart extends Component {
 
     render() {
 
@@ -11,7 +11,7 @@ class Barchart extends Component {
             <div className={this.props.graph}>
             {   
               this.props.data && this.props.data.map((el) => (
-              <div className={this.props.graphBar} style={{ width: Number(el.value)/this.props.highest_value * 100 + '%' }}>
+              <div className={this.props.graphBar} style={{ width: Number(el.value)/this.props.highest_value * 100 + '%', backgroundColor: this.props.barColor }}>
                   {el.value}</ div>
               ))
             }
@@ -22,4 +22,4 @@ class Barchart extends Component {
 
 }
 
-export default Barchart;
+export default BarChart;
